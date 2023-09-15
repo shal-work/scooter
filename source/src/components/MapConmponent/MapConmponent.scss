@@ -1,0 +1,104 @@
+.container-map {
+    background: #fff;
+    border-radius: 56px 56px 0 0;
+    max-width: 100% !important;
+    padding-top: 128px;
+    margin-top: -140px; 
+    position: relative;
+    @media (max-width: 1700px) {
+        top: 83px;
+        padding-top: 56px;
+        border-radius: 32px 32px 0 0;
+        padding-bottom: 72px;
+    }
+    @media (max-width: 767px) {
+        padding-bottom: 56px;
+    }
+}
+.container-map__content {
+    margin-bottom: 32px;
+    @media (max-width: 1700px) {
+        padding: 0 17px;
+    }
+}
+.container-map__content_title {
+    font-family: $global--font-YandexSans-wght-900;
+    font-size: 64px; 
+    margin-bottom: 32px;
+    @media (max-width: 1700px) {
+        font-size: 36px;
+        margin-bottom: 16px;
+    }
+}
+.container-map__content_text {
+    font-family: $global--font-YandexSans-wght-600;
+    font-size: 32px; 
+    line-height: 130%; 
+    margin-bottom: 72px;
+    @media (max-width: 1700px) {
+        font-size: 22px;
+        line-height: 120%;
+        margin-bottom: 32px;
+    }
+}
+.container-map__content_map {
+    display: block; 
+    pointer-events: none; 
+    width: 100%; 
+    border-radius: 56px;
+    @media (max-width: 1700px) {
+        border-radius: 32px;
+    }
+}
+.container-map__download-app {
+    display: block;
+    position: relative;
+    z-index: 10;
+    @media (max-width: 1700px) {
+        display: none;
+    }
+}
+.container-map__download-app_title {
+    font-family: $global--font-YandexSans-wght-900;
+    font-size: 64px; 
+    margin-bottom: 32px; 
+    max-width: 455px;
+}
+.container-map__download-app_text {
+    font-family: $global--font-YandexSans-wght-600;
+    font-size: 32px; 
+    line-height: 130%; 
+    max-width: 455px; 
+    padding-bottom: 48px;
+}
+.container-map__download-app_qr {
+    width: 202px;
+    padding: 0 17px 10px; 
+    margin: auto; 
+    box-sizing: border-box;
+    position: relative;
+    z-index: 10;
+}
+.container-map__download-app_telephone {
+    background-image: url('https://avatars.mds.yandex.net/get-lpc/1370085/31a8e38b-74a4-48ff-9a8d-8268862ace7e/orig');
+    background-size: 1106px; 
+    background-position: 50% 226px; 
+    background-repeat: no-repeat;
+    
+    width: 1046px;
+    height: 768px;
+    background-size: contain;
+    position: absolute;
+    bottom: 0px;
+    left: 452px;
+    @media (max-width: 1700px) {
+        display: none;
+    }
+}
+.container-map__button {
+    display: none;
+    @media (max-width: 1700px) {
+        display: flex;
+        padding: 0 17px;
+    }
+}

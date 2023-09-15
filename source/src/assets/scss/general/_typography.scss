@@ -1,0 +1,75 @@
+//для Сайта Самокат Яндекс шрифты 'YS Text', Helvetica, Arial, sans-serif ссылки из сайта оригинала
+
+@font-face {
+    font-family: 'YS Text';
+    src: url('https://yastatic.net/s3/home/fonts/ys/4/text-light.woff') format('woff'),url('https://yastatic.net/s3/home/fonts/ys/4/text-light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'YS Text';
+    src: url('https://yastatic.net/s3/home/fonts/ys/4/text-light-italic.woff') format('woff'),url('https://yastatic.net/s3/home/fonts/ys/4/text-light-italic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'YS Text';
+    src: url('https://yastatic.net/s3/home/fonts/ys/4/text-regular.woff') format('woff'),url('https://yastatic.net/s3/home/fonts/ys/4/text-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'YS Text';
+    src: url('https://yastatic.net/s3/home/fonts/ys/4/text-regular-italic.woff') format('woff'),url('https://yastatic.net/s3/home/fonts/ys/4/text-regular-italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'YS Text';
+    src: url('https://yastatic.net/s3/home/fonts/ys/4/text-medium.woff') format('woff'),url('https://yastatic.net/s3/home/fonts/ys/4/text-medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'YS Text';
+    src: url('https://yastatic.net/s3/home/fonts/ys/4/text-medium-italic.woff') format('woff'),url('https://yastatic.net/s3/home/fonts/ys/4/text-medium-italic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'YS Text';
+    src: url('https://yastatic.net/s3/home/fonts/ys/4/text-bold.woff') format('woff'),url('https://yastatic.net/s3/home/fonts/ys/4/text-bold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: 'YS Text';
+    src: url('https://yastatic.net/s3/home/fonts/ys/4/text-bold-italic.woff') format('woff'),url('https://yastatic.net/s3/home/fonts/ys/4/text-bold-italic.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "YandexSansTextRegular-wght-900";
+    src: url("https://yastatic.net/s3/lpc-ext/static/_fonts/YandexSansTextRegular-wght-900.woff") format("woff");
+    font-weight: 900;
+  }
+  
+  @font-face {
+    font-family: "YandexSansTextRegular-wght600";
+    src: url("https://yastatic.net/s3/lpc-ext/static/_fonts/YandexSansTextRegular-wght600.woff") format("woff");
+    font-weight: 600;
+  }
+  
+
+$global--font-primary:  'YS Text', sans-serif;
+$global--font-YandexSans-wght-900:  'YandexSansTextRegular-wght-900';
+$global--font-YandexSans-wght-600:  'YandexSansTextRegular-wght600';

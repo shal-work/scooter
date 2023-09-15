@@ -1,0 +1,39 @@
+.container-download {
+    display: block;
+    padding-right: 17px;
+    padding-top: 32px;
+    padding-bottom: 72px;
+    @media (max-width: 1700px) {
+        padding-left: 17px;
+    }
+}
+.container-download__item {
+    display: flex;
+    border-radius: 18px;
+}
+.container-download__button {
+    display: flex;
+    background: #21201f;
+    color: #fff;
+    font-family: $global--font-YandexSans-wght-600;
+    padding: 12px 64px !important;
+    line-height: 54px !important;
+    border-radius: 24px;
+    font-size: 24px;
+    height: 80px;
+    text-decoration: none;
+    @media (max-width: 1700px) {
+        padding: 4px 32px !important;
+        font-size: 18px;
+        line-height: 38px !important;
+        border-radius: 16px;
+        height: 50px;
+    }
+    @media (max-width: 310px) {
+        padding: 4px 32px !important;
+        font-size: 18px;
+        line-height: 20px !important;
+        border-radius: 16px;
+        text-align: center;
+    }
+}

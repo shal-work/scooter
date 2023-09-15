@@ -1,0 +1,186 @@
+.container-warning {
+    max-width: 1106px;
+    margin: 0 auto;
+    position: relative;
+    top: -96px;
+    z-index: 1;
+    @media (max-width: 1700px) {
+        max-width: none;
+        padding: 0 17px;
+        top: 0;
+    }
+}
+.container-warning__block {
+    width: 1030px;
+    background: #fff;
+    border-radius: 56px 56px;
+    padding: 56px 0 177px 93px;
+    @media (max-width: 1700px) {
+        width: 100%;
+        padding: 56px 0 177px 0;
+        border-radius: 32px;
+    }
+    @media (max-width: 767px) {
+        overflow: hidden;
+        padding-bottom: 130px;
+    }
+}
+.container-warning__block_title {
+    font-family: $global--font-YandexSans-wght-900;
+    font-size: 64px;
+    margin-bottom: 72px;
+    margin-top: calc(56px + 72px);
+    @media (max-width: 1700px) {
+        font-size: 32px;
+        padding: 0 24px 24px;
+        max-width: 920px;
+        margin: 0 auto;
+    }
+}
+.container-warning__block_title::before {
+    content: "Катайтесь аккуратно"; 
+    @media (max-width: 1700px) {
+        content: "Катайтесь нежно"; 
+        font-family: $global--font-YandexSans-wght-900;
+        font-size: 36px;
+    }
+    @media (max-width: 310px) {
+        font-size: 24px;
+        line-height: 24px;
+    }
+}
+.container-warning__block_content {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 96px;
+    column-gap: 0px;
+    color: #21201f;
+    padding-bottom: 96px;
+    @media (max-width: 1700px) {
+        flex-direction: column;
+        max-width: 920px;
+        margin: 0 auto;
+        padding-bottom: 0;
+        row-gap: 24px;
+    }
+    @media (max-width: 767px) {
+
+        display: none;
+
+        flex-direction: row;
+        flex-wrap:nowrap;
+        max-width: none;
+        margin: 0 auto;
+        width: calc(100vw * 6);
+        transform: translateX(0px);
+        row-gap: 0;
+        padding-bottom: 32px;
+    }
+}
+.container-warning__block_content-mobile {
+    display: none;
+    @media (max-width: 767px) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap:nowrap;
+        max-width: none;
+        margin: 0 auto;
+        row-gap: 0;
+        padding-bottom: 52px;
+    }
+}
+.container-warning__block_content-mobile-wrap {
+    width: calc(100vw - 34px);
+}
+.container-warning__block_content-mobile-indicator {
+    bottom: -42px;
+    position: relative;
+}
+.container-warning__item {
+    max-width: 362px; 
+    margin-right: 93px;
+    padding: 0;
+    @media (max-width: 1700px) {
+        padding: 0 calc(17px + 24px);
+        max-width: none;
+        margin-right: 0;
+    }
+    @media (max-width: 767px) {
+        width: calc(100vw - 34px);
+        padding: 0 24px;
+    }
+}
+.container-warning__item:nth-child(2n) {
+    margin-right: 0;
+    @media (max-width: 1700px) {
+        padding: 0 calc(17px + 24px);
+        max-width: none;
+        margin-right: 0;
+    }
+    @media (max-width: 767px) {
+        width: calc(100vw - 34px);
+        padding: 0 24px;
+    }
+}
+.container-warning__item_title {
+    font-family: $global--font-YandexSans-wght-900;
+    font-size: 36px; 
+    margin-bottom: 16px;
+    @media (max-width: 1700px) {
+        font-size: 28px; 
+    }
+    @media (max-width: 310px) {
+        font-size: 24px;
+    }
+}
+.container-warning__item_text {
+    font-family: $global--font-YandexSans-wght-600;
+    font-size: 22px;
+    @media (max-width: 1700px) {
+        font-size: 18px; 
+    }
+}
+.container-warning__insurance {
+    background: #00CA50;
+    width: 641px;
+    padding: 83px;
+    border-radius: 56px;
+    position: relative;
+    bottom: 140px;
+    right: -474px;
+    @media (max-width: 1700px) {
+        width: auto;
+        right: 0;
+        bottom: 100px;
+        padding: 32px 17px 56px 17px;
+        border-radius: 32px;
+    }
+    @media (max-width: 767px) {
+        padding: 32px 17px;
+    }
+}
+.container-warning__insurance_block {
+    margin: 0 auto;
+    max-width: 920px;
+}
+.container-warning__insurance_text {
+    font-family: $global--font-YandexSans-wght-600;
+    font-size: 32px;
+    color: #fff;
+    line-height: 130%;
+    @media (max-width: 1700px) {
+        font-size: 22px;
+        line-height: 120%;
+    }
+    @media (max-width: 1700px) {
+        font-size: 18px;
+    }
+}
+.container-warning__pagination {
+    display: none;
+    @media (max-width: 767px) {
+        display: block;
+        position: relative;
+        text-align: center;
+    }
+}
